@@ -14,7 +14,6 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 3em;
     margin: 0 20px;
-    counter-reset: sectionheader;
     counter-increment: sectionheader;
 
     &::before {

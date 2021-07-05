@@ -8,10 +8,11 @@ export default function Header() {
   const [scrollY, setScrollY] = React.useState(0)
   const [parallax, setParallax] = React.useState(0)
 
+  const onScroll = () => {
+    setScrollY(window.scrollY)
+  }
+
   React.useEffect(() => {
-    const onScroll = () => {
-      setScrollY(window.scrollY)
-    }
     window.addEventListener('scroll', onScroll)
 
     return () => window.removeEventListener('scroll', onScroll)
@@ -34,6 +35,7 @@ export default function Header() {
   }, [])
 
   React.useEffect(() => setInterval(() => setParallax(performance.now()/100), 10), [])
+  React.useEffect(() => {window.addEventListener('load', onScroll); onScroll()}, [])
 
   return (
     <header className={styles.header} style={{

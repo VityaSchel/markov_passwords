@@ -2,7 +2,10 @@
   max-width: 100%;
   height: 350px;
   position: relative;
-  margin-bottom: 50px;
+
+  &.hasLabel {
+    margin-bottom: 50px;
+  }
 
   img {
     position: absolute;
@@ -31,5 +34,13 @@
     position: absolute;
     top: 100%;
     margin-top: 15px;
+  }
+  
+  & + .image {
+    margin-top: 10px;
+  }
+
+  & + .image.hasLabel {
+    margin-top: 60px;
   }
 }
