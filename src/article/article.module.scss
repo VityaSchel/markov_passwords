@@ -2,6 +2,14 @@
   width: 100%;
   display: flex;
   align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: #000;
+  z-index: 2;
+
+  @media screen and (max-width: 768px) {
+    top: -1px !important;
+  }
 
   span {
     display: block;
@@ -19,5 +27,15 @@
     &::before {
       content: counter(sectionheader) '. ';
     }
+
+    @media screen and (max-width: 768px) {
+      font-size: 6vw !important;
+    }
   }
+}
+
+.poll {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }

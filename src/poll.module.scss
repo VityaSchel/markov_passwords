@@ -1,0 +1,31 @@
+.poll {
+  width: 300px;
+  border: 1px solid #888;
+  border-radius: 15px;
+  padding: 20px;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    margin: 0;
+  }
+
+  button.variant {
+    margin-top: 15px;
+    border: 1px solid #333;
+    background: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+
+    &[disabled] {
+      color: #cacaca;
+      cursor: default;
+    }
+  }
+}

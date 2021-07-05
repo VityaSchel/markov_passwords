@@ -7,6 +7,7 @@ export default function Header() {
   const [subheading, setSubheading] = React.useState('')
   const [scrollY, setScrollY] = React.useState(0)
   const [parallax, setParallax] = React.useState(0)
+  const headerRef = React.useRef()
 
   const onScroll = () => {
     setScrollY(window.scrollY)
@@ -18,7 +19,7 @@ export default function Header() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [scrollY])
 
-  const headerHeight = window.innerHeight - scrollY
+  const headerHeight = document.documentElement.clientHeight - scrollY
 
   React.useEffect(() => {
     let headingInterval, subheadingInterval, i = 0, j = 0
@@ -42,7 +43,7 @@ export default function Header() {
       height: Math.max(headerHeight, 200)+'px',
       top: headerHeight <= 200 ? headerHeight-200+'px' : '0px',
       backgroundPositionY: parallax+'px'
-    }}>
+    }} ref={headerRef}>
       <div className={styles.headings}>
         <h1>{heading}</h1>
         <h2>{subheading}</h2>

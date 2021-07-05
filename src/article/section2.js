@@ -38,7 +38,7 @@ import Image from '../image'
 
 export default function Section2() {
   return (
-    <section>
+    <section id='hack'>
       <div className={styles.heading}>
         <span /><h3>Взлом</h3><span />
       </div>
@@ -57,7 +57,7 @@ export default function Section2() {
         нашел многочасовые видео-ролики с демонстрацией неизвестного мне компьютерного проекта. Возможно, он
         продемонстрировал там закрытый код, и кто-то мог этот код скопировать и навредить Виктору.
       </p>
-      <Image src={imageGovnonenkoVideos} label='В течение 12 месяцев Google пишет дату изменения пароля при попытке его ввода' />
+      <Image src={imageGovnonenkoVideos} />
       <Image src={imageGovnonenkoVideoExample} label='Одно из видео на диске' />
       <p>
         А вот кое-что поинтереснее: на диске Виктора я нашел данные из его паспорта и подпись. Это анкета участника ВООШ.
@@ -69,7 +69,7 @@ export default function Section2() {
       </p>
       <Image src={imageGovnonenkoEmail} />
       <p>
-        А это почта друга Виктора, Тимофея. Еще можно
+        А это почта друга Виктора, Тимофея. Можно
         использовать все эти аккаунты со стандартным паролем для массовых бот-атак для регистрации на сайтах, почтового спама
         накрутки статистики под видео на YouTube, накрутки отзывов в Play Market и в других сервисах.
       </p>
