@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from './App.scss'
+import styles from './App.module.scss'
 import Header from './header'
 import Introduction from './article/introduction'
 import Section1 from './article/section1'
-import Section2 from './article/section1'
+import Section2 from './article/section2'
 import Section3 from './article/section3'
 
 function App() {

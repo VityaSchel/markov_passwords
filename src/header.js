@@ -1,19 +1,23 @@
 import React from 'react'
 import styles from './header.module.scss'
+// import cx from 'classnames'
 
 export default function Header() {
   const [heading, setHeading] = React.useState('')
   const [subheading, setSubheading] = React.useState('')
   const [scrollY, setScrollY] = React.useState(0)
+  const [parallax, setParallax] = React.useState(0)
 
   React.useEffect(() => {
     const onScroll = () => {
-      setScrollY(window.scrollTop)
+      setScrollY(window.scrollY)
     }
     window.addEventListener('scroll', onScroll)
 
     return () => window.removeEventListener('scroll', onScroll)
   }, [scrollY])
+
+  const headerHeight = window.innerHeight - scrollY
 
   React.useEffect(() => {
     let headingInterval, subheadingInterval, i = 0, j = 0
@@ -29,8 +33,14 @@ export default function Header() {
     }, 10)
   }, [])
 
+  React.useEffect(() => setInterval(() => setParallax(performance.now()/100), 10), [])
+
   return (
-    <header className={styles.header} style={{ height: window.innerHeight - scrollY+'px' }}>
+    <header className={styles.header} style={{
+      height: Math.max(headerHeight, 200)+'px',
+      top: headerHeight <= 200 ? headerHeight-200+'px' : '0px',
+      backgroundPositionY: parallax+'px'
+    }}>
       <div className={styles.headings}>
         <h1>{heading}</h1>
         <h2>{subheading}</h2>

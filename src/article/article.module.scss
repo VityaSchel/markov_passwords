@@ -1,0 +1,24 @@
+.heading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  span {
+    display: block;
+    flex: 1;
+    height: 1px;
+    background-color: #dadada;
+  }
+
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    margin: 0 20px;
+    counter-reset: sectionheader;
+    counter-increment: sectionheader;
+
+    &::before {
+      content: counter(sectionheader) '. ';
+    }
+  }
+}
