@@ -1,6 +1,0 @@
-Options -Indexes
-
-#AuthUserFile /var/www/markov_passwords/build/.htpasswd
-#AuthName "Please Login"
-#AuthType basic
-#Require valid-user
