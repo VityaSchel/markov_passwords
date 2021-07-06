@@ -31,6 +31,7 @@ import imageChat1 from '../resources/section2/chat1.jpeg'
 import imageChat2 from '../resources/section2/chat2.jpeg'
 
 import imageFainshteinDrive from '../resources/section2/fainshtein-drive.jpeg'
+import imageKutlinDrive from '../resources/section2/kutlin-drive.jpeg'
 import imageKEMcons from '../resources/section2/kem-cons.jpeg'
 import imageAccountsLogOut from '../resources/section3/accounts-log-out.jpg'
 
@@ -118,6 +119,7 @@ export default function Section2() {
       </p>
       <Image src={imageDeminaDrive} label='Личные файлы Марии Дёминой'/>
       <Image src={imageFainshteinDrive} label='Забавные тесты Матвея Файнштейна'/>
+      <Image src={imageKutlinDrive} label='Диск Вадима Кутлина'/>
       <p>
         Также я смог войти в почты этих аккаунтов, но показать их содержимое не могу, потому что опасаюсь статьи 272, а
         именно о копировании (распространении) персональной информации. Но там ничего интересного нет :)
