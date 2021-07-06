@@ -6,7 +6,7 @@ export default function Poll() {
   const [disabled, setDisabled] = React.useState(false)
   const [results, setResults] = React.useState()
   const [resultsBG, setResultsBG] = React.useState({})
-  const endpoint = 'http://localhost:37778'//'/api'
+  const endpoint = '/api'
 
   const generateBG = response => (
     {
