@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2335f90f.chunk.css",
-    "main.js": "/static/js/main.d7710d79.chunk.js",
+    "main.js": "/static/js/main.e56a0d95.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.c1314f97.js",
     "static/js/2.56b61eba.chunk.js": "/static/js/2.56b61eba.chunk.js",
     "index.html": "/index.html",
@@ -29,7 +29,7 @@
     "static/media/kem-cons.4786978f.jpeg": "/static/media/kem-cons.4786978f.jpeg",
     "static/media/komarova-disk.fd1ad3f6.jpeg": "/static/media/komarova-disk.fd1ad3f6.jpeg",
     "static/media/komarova-photos.9bd4e29d.jpeg": "/static/media/komarova-photos.9bd4e29d.jpeg",
-    "static/media/kutlin-drive.2eb6a05c.jpeg": "/static/media/kutlin-drive.2eb6a05c.jpeg",
+    "static/media/kutlin-drive.9282c867.jpeg": "/static/media/kutlin-drive.9282c867.jpeg",
     "static/media/login-mail.67b7a74b.jpeg": "/static/media/login-mail.67b7a74b.jpeg",
     "static/media/noftp.5af00f86.png": "/static/media/noftp.5af00f86.png",
     "static/media/novikov-email.6c04fea1.jpeg": "/static/media/novikov-email.6c04fea1.jpeg",
@@ -44,6 +44,6 @@
     "static/js/runtime-main.c1314f97.js",
     "static/js/2.56b61eba.chunk.js",
     "static/css/main.2335f90f.chunk.css",
-    "static/js/main.d7710d79.chunk.js"
+    "static/js/main.e56a0d95.chunk.js"
   ]
 }
