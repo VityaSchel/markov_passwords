@@ -1,14 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.daea979f.chunk.css",
-    "main.js": "/static/js/main.34a4631b.chunk.js",
-    "main.js.map": "/static/js/main.34a4631b.chunk.js.map",
+    "main.css": "/static/css/main.2335f90f.chunk.css",
+    "main.js": "/static/js/main.d7710d79.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.c1314f97.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c1314f97.js.map",
     "static/js/2.56b61eba.chunk.js": "/static/js/2.56b61eba.chunk.js",
-    "static/js/2.56b61eba.chunk.js.map": "/static/js/2.56b61eba.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.daea979f.chunk.css.map": "/static/css/main.daea979f.chunk.css.map",
     "static/js/2.56b61eba.chunk.js.LICENSE.txt": "/static/js/2.56b61eba.chunk.js.LICENSE.txt",
     "static/media/accounts-log-out.acc6f182.jpg": "/static/media/accounts-log-out.acc6f182.jpg",
     "static/media/ageev-disk.f51f80bb.jpeg": "/static/media/ageev-disk.f51f80bb.jpeg",
@@ -33,6 +29,7 @@
     "static/media/kem-cons.4786978f.jpeg": "/static/media/kem-cons.4786978f.jpeg",
     "static/media/komarova-disk.fd1ad3f6.jpeg": "/static/media/komarova-disk.fd1ad3f6.jpeg",
     "static/media/komarova-photos.9bd4e29d.jpeg": "/static/media/komarova-photos.9bd4e29d.jpeg",
+    "static/media/kutlin-drive.2eb6a05c.jpeg": "/static/media/kutlin-drive.2eb6a05c.jpeg",
     "static/media/login-mail.67b7a74b.jpeg": "/static/media/login-mail.67b7a74b.jpeg",
     "static/media/noftp.5af00f86.png": "/static/media/noftp.5af00f86.png",
     "static/media/novikov-email.6c04fea1.jpeg": "/static/media/novikov-email.6c04fea1.jpeg",
@@ -46,7 +43,7 @@
   "entrypoints": [
     "static/js/runtime-main.c1314f97.js",
     "static/js/2.56b61eba.chunk.js",
-    "static/css/main.daea979f.chunk.css",
-    "static/js/main.34a4631b.chunk.js"
+    "static/css/main.2335f90f.chunk.css",
+    "static/js/main.d7710d79.chunk.js"
   ]
 }
