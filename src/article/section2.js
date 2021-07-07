@@ -2,36 +2,36 @@ import React from 'react'
 import styles from './article.module.scss'
 import imagePasswordChanged from '../resources/section2/password-changed.jpeg'
 
-import imageGVNVideos from '../resources/section2/govnonenko-videos.jpeg'
-import imageGVNVideoExample from '../resources/section2/govnonenko-video-example.jpeg'
-import imageGVNPassport from '../resources/section2/govnonenko-passport.jpeg'
-import imageGVNEmail from '../resources/section2/govnonenko-email.jpg'
-import imageHUECEmail from '../resources/section2/huets-email.jpeg'
+import imageGVNVideos from '../resources/section2/gvn-videos.jpeg'
+import imageGVNVideoExample from '../resources/section2/gvn-video-example.jpeg'
+import imageGVNPassport from '../resources/section2/gvn-passport.jpeg'
+import imageGVNEmail from '../resources/section2/gvn-email.jpg'
+import imageHUECEmail from '../resources/section2/huec-email.jpeg'
 
-import imageAGVDisk from '../resources/section2/ageev-disk.jpeg'
-import imageKMRDisk from '../resources/section2/komarova-disk.jpeg'
-import imageKMRPhotos from '../resources/section2/komarova-photos.jpeg'
-import imageDMNPhotos from '../resources/section2/demina-photos.jpeg'
-import imageSTKDeletion from '../resources/section2/stukalina-deletion.jpg'
+import imageAGVDisk from '../resources/section2/agv-disk.jpeg'
+import imageKMRDisk from '../resources/section2/kmr-disk.jpeg'
+import imageKMRPhotos from '../resources/section2/kmr-photos.jpeg'
+import imageDMNPhotos from '../resources/section2/dmn-photos.jpeg'
+import imageSTKDeletion from '../resources/section2/stk-deletion.jpg'
 import imagePasswordChange from '../resources/section2/password-change.jpg'
 
-import imageGRSRegistration from '../resources/section2/girshovsky-registration.jpg'
-import imageGNGRegistration from '../resources/section2/gengut-registration.jpeg'
-import imageSMNRegistration from '../resources/section2/semenov-registration.jpeg'
-import imagePPVRegistration from '../resources/section2/popovich-registration.jpeg'
+import imageGRSRegistration from '../resources/section2/grs-registration.jpg'
+import imageGNGRegistration from '../resources/section2/gng-registration.jpeg'
+import imageSMNRegistration from '../resources/section2/smn-registration.jpeg'
+import imagePPVRegistration from '../resources/section2/ppv-registration.jpeg'
 
-import imageDMNInstagram from '../resources/section2/demina-instagram.jpeg'
-import imageDMNDrive from '../resources/section2/demina-drive.jpeg'
-import imageNVKEmail from '../resources/section2/novikov-email.jpeg'
-import imageSMREmail from '../resources/section2/smirnov-email.png'
-import imageSMLEmail from '../resources/section2/smolenkov-email.jpeg'
+import imageDMNInstagram from '../resources/section2/dmn-instagram.jpeg'
+import imageDMNDrive from '../resources/section2/dmn-drive.jpeg'
+import imageNVKEmail from '../resources/section2/nvk-email.jpeg'
+import imageSMREmail from '../resources/section2/smr-email.png'
+import imageSMLEmail from '../resources/section2/sml-email.jpeg'
 
 import imageChatMembers from '../resources/section2/chat-members.jpeg'
 import imageChat1 from '../resources/section2/chat1.jpeg'
 import imageChat2 from '../resources/section2/chat2.jpeg'
 
-import imageFNSDrive from '../resources/section2/fainshtein-drive.jpeg'
-import imageKTLDrive from '../resources/section2/kutlin-drive.jpeg'
+import imageFNSDrive from '../resources/section2/fns-drive.jpeg'
+import imageKTLDrive from '../resources/section2/ktl-drive.jpeg'
 import imageKEMcons from '../resources/section2/kem-cons.jpeg'
 import imageAccountsLogOut from '../resources/section3/accounts-log-out.jpg'
 
@@ -95,8 +95,7 @@ export default function Section2() {
       </p>
       <Image src={imageKMRPhotos} />
       <p>
-        Дарья — не единственная, кто хранил фотографии на диске. Вот еще один альбом фотографий Марии
-        Дёминой
+        Дарья — не единственная, кто хранил фотографии на диске. Вот еще один альбом фотографий Марии Д.
       </p>
       <Image src={imageDMNPhotos} />
       <p>
@@ -112,7 +111,7 @@ export default function Section2() {
       <Image src={imagePasswordChange} />
       <p>
         Ниже доказательство, что эти гугл-аккаунты лишь тратят бюджет школы и никому не нужны. Георгий Г.,
-        Мария Г., Кирилл С., Макар П., и, скорее всего, многие другие за 3 года ни разу не зашли в свой аккаунт.
+        Мария Г., Кирилл Се., Макар П., и, скорее всего, многие другие за 3 года ни разу не зашли в свой аккаунт.
       </p>
       <Image src={imageGRSRegistration} />
       <Image src={imageGNGRegistration} />
@@ -132,7 +131,7 @@ export default function Section2() {
       <Image src={imageNVKEmail} label='Владимир Н.'/>
       <Image src={imageSMLEmail} label='Артём С.'/>
       <Image src={imageKEMcons} label='7 заявлений с личными данными учеников' />
-      <Image src={imageSMREmail} label='Кирилл С.'/>
+      <Image src={imageSMREmail} label='Кирилл См.'/>
       <p>
         На последнем скриншоте я заметил беседу 7А в Hangouts. Она была создана еще когда нам раздавали бумажки с логинами
         и паролями от аккаунтов. Тогда же нам объясняли, что в Gmail можно переписываться.
