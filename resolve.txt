@@ -1,0 +1,15 @@
+GVN = Romanenko
+HUEC = Emets
+AGV = ageev
+KMR = komarova
+DMN = Demina
+STK = stukalina
+GRS = Girshovsky
+NVK = Novikov
+GNG = Gengut
+SMR = smirnov
+SMN = semenov
+PPV = popivich
+KTL = kutlin
+FNS = fainshtein
+SML = smolenkov
