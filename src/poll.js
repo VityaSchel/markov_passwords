@@ -20,8 +20,12 @@ export default function Poll() {
   )
 
   React.useEffect(async () => {
+    /*
     let responseRaw = await fetch(endpoint+'/vote')
     let response = await responseRaw.json()
+    */
+    // 19.09.2021
+    let response = { no: "60.8%", voted: true, yes: "39.2%%" }
     if(response.voted) {
       setDisabled(true)
       setResults(response)
@@ -61,6 +65,7 @@ export default function Poll() {
           { results && <span className={styles.results}>{results.no}</span> }
         </button> </> : <p className={styles.centered}>Минутку...</p>
       }
+      Голосование завершено 19 сентября 2021
     </div>
   )
 }
